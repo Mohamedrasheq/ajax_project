@@ -1,0 +1,52 @@
+/* Global styles with gradient background */
+body {
+    font-family: 'Arial', sans-serif;  /* Consistent font */
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
+    background: linear-gradient(to bottom right, #3498db, #e74c3c);  /* Gradient from blue to red */
+    color: white;  /* White text for contrast */
+}
+
+/* Header styles */
+h1 {
+    color: white;  /* White text for contrast against gradient */
+    text-align: center;  /* Center align the title */
+    margin-top: 20px;  /* Space at the top */
+}
+
+/* List styles */
+ul {
+    list-style: none;  /* Remove default list bullets */
+    padding: 0;  /* Remove default padding */
+}
+
+#profile-list {
+    max-width: 600px;  /* Limit width for readability */
+    margin: 0 auto;  /* Center the list */
+    padding: 10px;  /* Add padding */
+    background: rgba(255, 255, 255, 0.1);  /* Semi-transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.2);  /* Light border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);  /* Shadow for depth */
+}
+
+/* Individual list item styles */
+#profile-list li {
+    padding: 10px;  /* Space between list items */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);  /* Light border */
+}
+
+#profile-list li:last-child {
+    border-bottom: none;  /* Remove border from last item */
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    #profile-list {
+        padding: 5px;  /* Reduce padding on smaller screens */
+    }
+    
+    #profile-list li {
+        padding: 8px;  /* Reduce item padding on smaller screens */
+    }
+}

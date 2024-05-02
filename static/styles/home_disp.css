@@ -1,0 +1,58 @@
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif;  /* Consistent font */
+    margin: 0;  /* Remove default margin */
+    padding: 0;  /* Remove default padding */
+    background: linear-gradient(to right, hsl(195, 97%, 48%), hsl(120, 61%, 54%));  /* Gradient from blue to green */
+  /* Gradient from blue to green */
+  /* Circular gradient from center outwards */
+/* Gradient from left to right */
+  /* Gradient background with purple tones */
+    color: #f0f0f0;  /* Light text color for contrast */
+}
+
+/* Header styles */
+h1 {
+    color: #fff;  /* White text for contrast against gradient */
+    text-align: center;  /* Center align the title */
+    margin-top: 20px;  /* Space at the top */
+}
+
+h2 {
+    color: #ffeb3b;  /* Bright yellow for visibility */
+    text-align: center;  /* Center align subtitle */
+}
+
+/* Form styles */
+#post-form {
+    max-width: 400px;  /* Limit width for readability */
+    margin: 20px auto;  /* Center the form */
+    padding: 20px;  /* Add padding */
+    background: #3a3a3a;  /* Dark gray background */
+    border: 2px solid #6a5acd;  /* Purple border */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);  /* Shadow for depth */
+}
+
+/* Input styles */
+#post-form input[type="text"] {
+    width: 100%;  /* Full width inputs */
+    padding: 10px;  /* Add padding */
+    margin-bottom: 10px;  /* Space between inputs */
+    border: 1px solid #6a5acd;  /* Purple border */
+    border-radius: 5px;  /* Slightly rounded corners */
+}
+
+#post-form input[type="submit"] {
+    background: #6a5acd;  /* Purple background for submit button */
+    color: white;  /* White text for contrast */
+    border: none;  /* No border */
+    padding: 10px 20px;  /* Padding for the button */
+    border-radius: 5px;  /* Rounded corners */
+    cursor: pointer;  /* Change cursor to pointer */
+}
+
+/* Hover effects for the submit button */
+#post-form input[type="submit"]:hover {
+    background: #483d8b;  /* Darker shade on hover */
+}
